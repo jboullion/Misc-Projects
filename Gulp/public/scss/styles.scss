@@ -1,0 +1,32 @@
+@import "./reset";
+
+$gray: #f7f7f7;
+$orange: #b97b00;
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+img {
+    margin-bottom: 3rem;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: $orange;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
